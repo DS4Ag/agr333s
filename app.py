@@ -176,7 +176,6 @@ def update_summary_cards(selected_section, selected_question, selected_grade, se
      Input('grade-level-dropdown', 'value'),
      Input('major-dropdown', 'value')]
 )
-
 def update_charts(selected_section, selected_question, selected_grade, selected_major):
     if not selected_question:
         return html.Div("Please select a question to display charts.")
@@ -198,7 +197,7 @@ def update_charts(selected_section, selected_question, selected_grade, selected_
                       title=f'Distribution of Answers: {selected_question}',
                       color_discrete_sequence=color_palette),
         config={'responsive': True},
-        style={'height': "50%", "width": "100%", "display": "block"}
+        style={'height': '40vh', 'width': '100%'}
     )
 
     # Stacked Bar Chart by Grade Level
@@ -209,7 +208,7 @@ def update_charts(selected_section, selected_question, selected_grade, selected_
                       barmode='stack',
                       color_discrete_sequence=color_palette),
         config={'responsive': True},
-        style={'height': "50%", "width": "100%", "display": "block"}
+        style={'height': '40vh', 'width': '100%'}
     )
 
     # Stacked Bar Chart by Major
@@ -220,7 +219,7 @@ def update_charts(selected_section, selected_question, selected_grade, selected_
                       barmode='stack',
                       color_discrete_sequence=color_palette),
         config={'responsive': True},
-        style={'height': "50%", "width": "100%", "display": "block"}
+        style={'height': '40vh', 'width': '100%'}
     )
 
     return html.Div([
@@ -229,10 +228,8 @@ def update_charts(selected_section, selected_question, selected_grade, selected_
         major_bar_chart
     ])
 
-
 # # Run app
 server = app.server
-server = app.server  # <- This is required for Gunicorn
 
 # if __name__ == "__main__":
 #     app.run_server(debug=True)
