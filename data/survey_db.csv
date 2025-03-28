@@ -1,0 +1,334 @@
+user_ID,Major/Field of Study,College Grade Level,Section,Question,Answer
+1,Agricultural Economics,Junior,1: Academic Background,1. What is your major or field of study?,Agricultural Economics
+2,Agronomy,Sophomore,1: Academic Background,1. What is your major or field of study?,Agronomy
+3,Agronomy,Senior,1: Academic Background,1. What is your major or field of study?,Agronomy
+4,Agronomy,Junior,1: Academic Background,1. What is your major or field of study?,Agronomy
+5,Environmental Science,Junior,1: Academic Background,1. What is your major or field of study?,Environmental Science
+6,Animal Science,Senior,1: Academic Background,1. What is your major or field of study?,Animal Science
+7,Environmental Science,Sophomore,1: Academic Background,1. What is your major or field of study?,Environmental Science
+8,Animal Science,Senior,1: Academic Background,1. What is your major or field of study?,Animal Science
+9,Agricultural Economics,Sophomore,1: Academic Background,1. What is your major or field of study?,Agricultural Economics
+10,Animal Science,Senior,1: Academic Background,1. What is your major or field of study?,Animal Science
+11,Animal Science,Junior,1: Academic Background,1. What is your major or field of study?,Animal Science
+12,Animal Science,Senior,1: Academic Background,1. What is your major or field of study?,Animal Science
+13,Environmental Science,Sophomore,1: Academic Background,1. What is your major or field of study?,Environmental Science
+14,Agricultural & Biological Engineering,Senior,1: Academic Background,1. What is your major or field of study?,Agricultural & Biological Engineering
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,1: Academic Background,1. What is your major or field of study?,"Plant Genetics, Breeding, and Biotechnology program"
+16,Agricultural & Biological Engineering,Senior,1: Academic Background,1. What is your major or field of study?,Agricultural & Biological Engineering
+1,Agricultural Economics,Junior,1: Academic Background,2. What is college grade level classification?,Junior
+2,Agronomy,Sophomore,1: Academic Background,2. What is college grade level classification?,Sophomore
+3,Agronomy,Senior,1: Academic Background,2. What is college grade level classification?,Senior
+4,Agronomy,Junior,1: Academic Background,2. What is college grade level classification?,Junior
+5,Environmental Science,Junior,1: Academic Background,2. What is college grade level classification?,Junior
+6,Animal Science,Senior,1: Academic Background,2. What is college grade level classification?,Senior
+7,Environmental Science,Sophomore,1: Academic Background,2. What is college grade level classification?,Sophomore
+8,Animal Science,Senior,1: Academic Background,2. What is college grade level classification?,Senior
+9,Agricultural Economics,Sophomore,1: Academic Background,2. What is college grade level classification?,Sophomore
+10,Animal Science,Senior,1: Academic Background,2. What is college grade level classification?,Senior
+11,Animal Science,Junior,1: Academic Background,2. What is college grade level classification?,Junior
+12,Animal Science,Senior,1: Academic Background,2. What is college grade level classification?,Senior
+13,Environmental Science,Sophomore,1: Academic Background,2. What is college grade level classification?,Sophomore
+14,Agricultural & Biological Engineering,Senior,1: Academic Background,2. What is college grade level classification?,Senior
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,1: Academic Background,2. What is college grade level classification?,Senior
+16,Agricultural & Biological Engineering,Senior,1: Academic Background,2. What is college grade level classification?,Senior
+1,Agricultural Economics,Junior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Yes
+2,Agronomy,Sophomore,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Data Mine
+3,Agronomy,Senior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",AGRY 420
+4,Agronomy,Junior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Python
+4,Agronomy,Junior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Stat
+4,Agronomy,Junior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Java
+5,Environmental Science,Junior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Stats 301
+6,Animal Science,Senior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Stats 301
+7,Environmental Science,Sophomore,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Stats 301
+8,Animal Science,Senior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Yes
+9,Agricultural Economics,Sophomore,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Yes
+10,Animal Science,Senior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Yes
+11,Animal Science,Junior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Yes
+12,Animal Science,Senior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",CS 177
+12,Animal Science,Senior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Hort 530
+13,Environmental Science,Sophomore,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Yes
+14,Agricultural & Biological Engineering,Senior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Yes
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Yes
+16,Agricultural & Biological Engineering,Senior,1: Academic Background,"3. Have you taken any previous course(s) related to data science, statistics, or programming?",Yes
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,None
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Agronomic data
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Geographic maps and GIS data
+3,Agronomy,Senior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Agronomic data
+3,Agronomy,Senior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Machine data
+3,Agronomy,Senior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Sensor data
+3,Agronomy,Senior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Geographic maps and GIS
+4,Agronomy,Junior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Machine data
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,None
+6,Animal Science,Senior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,None
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,None
+8,Animal Science,Senior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,None
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Dairy performance data
+10,Animal Science,Senior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,None
+11,Animal Science,Junior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Agronomic data
+12,Animal Science,Senior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Agronomic data
+12,Animal Science,Senior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Machine data
+12,Animal Science,Senior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Sensor data
+12,Animal Science,Senior,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Geographic maps and GIS
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Agronomic data
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Machine data
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Sensor data
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,Geographic maps and GIS
+14,Agricultural & Biological Engineering, Senior ,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,
+15, Plant Genetics Breeding And Biotechnology Program , Senior ,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,
+16, Agricultural & Biological Engineering , Senior ,2: Knowledge Skills and Experience,4. Which of the following data sources were you familiar with before joining the class?,
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Awareness
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,Q5A: Construct a research question,Advanced
+3,Agronomy,Senior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Novice
+4,Agronomy,Junior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Novice
+6,Animal Science,Senior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Advanced
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5A: Construct a research question,Novice
+8,Animal Science,Senior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Novice
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,Q5A: Construct a research question,Novice
+10,Animal Science,Senior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Intermediate
+11,Animal Science,Junior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Novice
+12,Animal Science,Senior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Intermediate
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5A: Construct a research question,Advanced
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Advanced
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Novice
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5A: Construct a research question,Expert
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Awareness
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Awareness
+3,Agronomy,Senior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Intermediate
+4,Agronomy,Junior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Novice
+6,Animal Science,Senior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Awareness
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Awareness
+8,Animal Science,Senior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Awareness
+10,Animal Science,Senior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Awareness
+11,Animal Science,Junior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Awareness
+12,Animal Science,Senior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Novice
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Advanced
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Awareness
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5B: Convert sensor information from analog to digital,Advanced
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Awareness
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,Q5C: Assess data quality,Novice
+3,Agronomy,Senior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Novice
+4,Agronomy,Junior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Novice
+6,Animal Science,Senior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Intermediate
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5C: Assess data quality,Novice
+8,Animal Science,Senior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,Q5C: Assess data quality,Novice
+10,Animal Science,Senior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Intermediate
+11,Animal Science,Junior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Awareness
+12,Animal Science,Senior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5C: Assess data quality,Intermediate
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Advanced
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Novice
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5C: Assess data quality,Advanced
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Novice
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Expert
+3,Agronomy,Senior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Novice
+4,Agronomy,Junior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Awareness
+6,Animal Science,Senior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Awareness
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Awareness
+8,Animal Science,Senior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Intermediate
+10,Animal Science,Senior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Awareness
+11,Animal Science,Junior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Awareness
+12,Animal Science,Senior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Novice
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Expert
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Novice
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5D: Merge disparate data sets,Expert
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Awareness
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Advanced
+3,Agronomy,Senior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Novice
+4,Agronomy,Junior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Awareness
+6,Animal Science,Senior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Awareness
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Awareness
+8,Animal Science,Senior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Intermediate
+10,Animal Science,Senior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Awareness
+11,Animal Science,Junior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Awareness
+12,Animal Science,Senior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Advanced
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Expert
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Intermediate
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5E: Clean data to fix differences in format or outliers,Expert
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Awareness
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Intermediate
+3,Agronomy,Senior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Intermediate
+4,Agronomy,Junior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Intermediate
+6,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Intermediate
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Awareness
+8,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Intermediate
+10,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Awareness
+11,Animal Science,Junior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Awareness
+12,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Intermediate
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Intermediate
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Awareness
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,"Q5F: Describe data ethical issues such as ownership, access",Expert
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Advanced
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Expert
+3,Agronomy,Senior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Intermediate
+4,Agronomy,Junior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Intermediate
+6,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Awareness
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Awareness
+8,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Intermediate
+10,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Novice
+11,Animal Science,Junior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Novice
+12,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Advanced
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Expert
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Intermediate
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,"Q5G: Produce correlations, means, and confidence intervals",Expert
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Awareness
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Novice
+3,Agronomy,Senior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Intermediate
+4,Agronomy,Junior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Intermediate
+6,Animal Science,Senior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Awareness
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Awareness
+8,Animal Science,Senior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Awareness
+10,Animal Science,Senior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Awareness
+11,Animal Science,Junior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Awareness
+12,Animal Science,Senior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Novice
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Advanced
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Awareness
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5H: Work with spatial data,Advanced
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Awareness
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Intermediate
+3,Agronomy,Senior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Intermediate
+4,Agronomy,Junior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Awareness
+6,Animal Science,Senior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Awareness
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Awareness
+8,Animal Science,Senior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Awareness
+10,Animal Science,Senior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Awareness
+11,Animal Science,Junior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Awareness
+12,Animal Science,Senior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Novice
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Advanced
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Awareness
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5I: Distinguish raster and vector data,Advanced
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Intermediate
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Expert
+3,Agronomy,Senior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Novice
+4,Agronomy,Junior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Intermediate
+6,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Novice
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Intermediate
+8,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Novice
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Intermediate
+10,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Novice
+11,Animal Science,Junior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Intermediate
+12,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Intermediate
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Advanced
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Expert
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Novice
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,"Q5J: Use the most appropriate visualization tool, such as line charts, bars, maps, tables, pies.",Advanced
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Awareness
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Expert
+3,Agronomy,Senior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Advanced
+4,Agronomy,Junior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Novice
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Intermediate
+6,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Intermediate
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Intermediate
+8,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Novice
+10,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Novice
+11,Animal Science,Junior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Intermediate
+12,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Intermediate
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Advanced
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Awareness
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,"Q5K: Describe types of data used in forestry, soils, food science, crops, animal sciences, economics.",Expert
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Intermediate
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Advanced
+3,Agronomy,Senior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Intermediate
+4,Agronomy,Junior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Novice
+6,Animal Science,Senior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,N/A
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Novice
+8,Animal Science,Senior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Awareness
+10,Animal Science,Senior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Novice
+11,Animal Science,Junior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Novice
+12,Animal Science,Senior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Intermediate
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Intermediate
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Awareness
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5L: Distinguish cyclical and seasonal trends,Advanced
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,Q5M: Use R software,Awareness
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,Q5M: Use R software,Expert
+3,Agronomy,Senior,2: Knowledge Skills and Experience,Q5M: Use R software,Intermediate
+4,Agronomy,Junior,2: Knowledge Skills and Experience,Q5M: Use R software,Awareness
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,Q5M: Use R software,Novice
+6,Animal Science,Senior,2: Knowledge Skills and Experience,Q5M: Use R software,Awareness
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5M: Use R software,N/A
+8,Animal Science,Senior,2: Knowledge Skills and Experience,Q5M: Use R software,Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,Q5M: Use R software,Awareness
+10,Animal Science,Senior,2: Knowledge Skills and Experience,Q5M: Use R software,Awareness
+11,Animal Science,Junior,2: Knowledge Skills and Experience,Q5M: Use R software,Awareness
+12,Animal Science,Senior,2: Knowledge Skills and Experience,Q5M: Use R software,Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5M: Use R software,Awareness
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5M: Use R software,Advanced
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,Q5M: Use R software,Intermediate
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5M: Use R software,Novice
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Intermediate
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,Q5N: Use Excel software,Novice
+3,Agronomy,Senior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Intermediate
+4,Agronomy,Junior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Intermediate
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Intermediate
+6,Animal Science,Senior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Novice
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5N: Use Excel software,Novice
+8,Animal Science,Senior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Novice
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,Q5N: Use Excel software,Advanced
+10,Animal Science,Senior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Intermediate
+11,Animal Science,Junior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Advanced
+12,Animal Science,Senior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Intermediate
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5N: Use Excel software,Advanced
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Expert
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Novice
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5N: Use Excel software,Expert
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Awareness
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Novice
+3,Agronomy,Senior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Intermediate
+4,Agronomy,Junior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Awareness
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Awareness
+6,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Awareness
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Awareness
+8,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Awareness
+10,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Awareness
+11,Animal Science,Junior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Novice
+12,Animal Science,Senior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Intermediate
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Advanced
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Awareness
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,"Q5O: Precision agriculture tools (e.g., sensors, drones)",Expert
+1,Agricultural Economics,Junior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Awareness
+2,Agronomy,Sophomore,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Intermediate
+3,Agronomy,Senior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Intermediate
+4,Agronomy,Junior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Awareness
+5,Environmental Science,Junior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Intermediate
+6,Animal Science,Senior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Intermediate
+7,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Novice
+8,Animal Science,Senior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Awareness
+9,Agricultural Economics,Sophomore,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Awareness
+10,Animal Science,Senior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Novice
+11,Animal Science,Junior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Novice
+12,Animal Science,Senior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Awareness
+13,Environmental Science,Sophomore,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Intermediate
+14,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Advanced
+15,"Plant Genetics, Breeding, and Biotechnology program",Senior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Awareness
+16,Agricultural & Biological Engineering,Senior,2: Knowledge Skills and Experience,Q5P: Data collection in agriculture,Expert

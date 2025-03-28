@@ -1,0 +1,5 @@
+.VirtualizedSelectOption {
+    white-space: normal; /* Allow text wrapping */
+    word-wrap: break-word; /* Break long words */
+    min-height: 60px; /* Ensure sufficient height per option */
+}
