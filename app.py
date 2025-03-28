@@ -230,6 +230,6 @@ def update_charts(selected_section, selected_question, selected_grade, selected_
     ])
 
 
-# Run app
-if __name__ == '__main__':
-    app.run(debug=False, host="0.0.0.0", port=8080)
+# # Run app
+# if __name__ == '__main__':
+#     app.run(debug=False, host="0.0.0.0", port=8080)
