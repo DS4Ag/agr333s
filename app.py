@@ -231,5 +231,5 @@ def update_charts(selected_section, selected_question, selected_grade, selected_
 
 
 # Run app
-app = Dash(__name__)
-server = app.server  # Required for Railway deployment
+if __name__ == '__main__':
+    app.run(debug=False, host="0.0.0.0", port=8080)
