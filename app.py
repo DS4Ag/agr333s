@@ -176,6 +176,7 @@ def update_summary_cards(selected_section, selected_question, selected_grade, se
      Input('grade-level-dropdown', 'value'),
      Input('major-dropdown', 'value')]
 )
+
 def update_charts(selected_section, selected_question, selected_grade, selected_major):
     if not selected_question:
         return html.Div("Please select a question to display charts.")
@@ -232,5 +233,3 @@ def update_charts(selected_section, selected_question, selected_grade, selected_
 # Run app
 app = Dash(__name__)
 server = app.server  # Required for Railway deployment
-# if __name__ == '__main__':
-#     app.run(debug=False)
