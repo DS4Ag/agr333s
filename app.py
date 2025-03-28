@@ -4,7 +4,7 @@ import plotly.express as px
 import pandas as pd
 
 # Read data from the provided CSV file
-df = pd.read_csv('data/survey_db.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/DS4Ag/agr333s/refs/heads/main/data/survey_db.csv')
 
 # Create Dash app
 app = Dash(__name__)
