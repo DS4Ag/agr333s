@@ -1,5 +1,4 @@
-from dash import Dash, dcc, html
-from dash.dependencies import Input, Output
+from dash import Dash, dcc, html, Input, Output, State, ctx, ALL
 import plotly.express as px
 import pandas as pd
 
@@ -11,6 +10,28 @@ app = Dash(__name__)
 
 # Define a professional color palette
 color_palette = px.colors.qualitative.Safe
+
+# Global font sizes and layout settings
+FONT_SIZES = {
+    "title": 16,
+    "axis_title": 16,
+    "tick_labels": 16,
+    "legend": 16
+}
+
+GLOBAL_LAYOUT = {
+    "title": dict(font=dict(size=FONT_SIZES["title"])),
+    "xaxis": dict(
+        title=dict(font=dict(size=FONT_SIZES["axis_title"])),
+        tickfont=dict(size=FONT_SIZES["tick_labels"])
+    ),
+    "yaxis": dict(
+        title=dict(font=dict(size=FONT_SIZES["axis_title"])),
+        tickfont=dict(size=FONT_SIZES["tick_labels"])
+    ),
+    "legend": dict(font=dict(size=FONT_SIZES["legend"])),
+    "margin": dict(l=20, r=20, t=40, b=20)
+}
 
 # Layout
 app.layout = html.Div(style={'font-family': 'Arial', 'padding': '20px'}, children=[
@@ -24,35 +45,31 @@ app.layout = html.Div(style={'font-family': 'Arial', 'padding': '20px'}, childre
     # Filters Section
     html.Div(style={'display': 'flex', 'marginTop': '20px'}, children=[
         html.Div(style={'width': '25%', 'padding': '20px', 'backgroundColor': '#f8f9fa',
-                        'borderRadius': '10px', 'boxShadow': '0px 4px 6px rgba(0,0,0,0.1)'}, children=[
+                        'borderRadius': '10px', 'boxShadow': '0px 4px 6px rgba(0,0,0,0.1)','marginBottom': '10px'}, children=[
             html.H3('Required Filters'),
             html.Label('Select Section:'),
             dcc.Dropdown(
                 id='section-dropdown',
-                options=[{'label': i, 'value': i} for i in df['Section'].unique()],
+                options=[{'label': i, 'value': i} for i in df['Section'].unique()] + [{'label': '', 'value': ''}],
                 value=df['Section'].unique()[0],
                 style={'marginBottom': '20px'}
             ),
+
+            html.Div(style={"height": "50px"}),
+
             html.Label('Select Question:'),
-            dcc.Dropdown(
-                id='question-dropdown',
-                options=[],
-                value=None,
-                optionHeight=60,
-                style={
-                    'marginBottom': '20px',
-                    'whiteSpace': 'normal',
-                    'width': '100%'
-                }
-            ),
-            # Add a horizontal line to separate required and optional filters
+            html.Div(id='question-buttons-container', style={
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "10px"
+            }),
             html.Hr(style={'borderWidth': '1px', 'borderColor': '#ccc', 'marginTop': '30px'}),
             html.H3('Optional Filters', style={'fontSize': '18px'}),
             html.Label('Select Grade Level:', style={'fontSize': '14px'}),
             dcc.Dropdown(
                 id='grade-level-dropdown',
                 options=[{'label': 'All', 'value': 'All'}] + [{'label': i, 'value': i} for i in
-                                                              df['College Grade Level'].unique()],
+                                                              df['College Grade Level'].unique()]+ [{'label': '', 'value': ''}],
                 value='All',
                 style={'marginBottom': '20px'}
             ),
@@ -60,14 +77,17 @@ app.layout = html.Div(style={'font-family': 'Arial', 'padding': '20px'}, childre
             dcc.Dropdown(
                 id='major-dropdown',
                 options=[{'label': 'All', 'value': 'All'}] + [{'label': i, 'value': i} for i in
-                                                              df['Major/Field of Study'].unique()],
+                                                              df['Major/Field of Study'].unique()]+ [{'label': '', 'value': ''}],
                 value='All'
-            )
+            ),
+
+            # Spacer Div
+            html.Div(style={"height": "100px"})  # Adds 100 pixels of space below the menu
+
         ]),
 
         # Charts Section
         html.Div(style={'width': '75%', 'paddingLeft': '20px'}, children=[
-            # Summary Cards Section
             dcc.Loading(
                 id="loading-summary",
                 type="circle",
@@ -79,44 +99,68 @@ app.layout = html.Div(style={'font-family': 'Arial', 'padding': '20px'}, childre
                     "flexWrap": "wrap"
                 })
             ),
-
-            # Graphs Section
             dcc.Loading(
                 id="loading-graphs",
                 type="circle",
-                children=html.Div(id='charts-container')
+                children=html.Div(id='charts-container', style={
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "gap": "30px",
+                    "width": "100%"
+                })
             )
         ])
     ])
 ])
 
 
-# Callback for question dropdown options
+# Generate question buttons based on section
 @app.callback(
-    Output('question-dropdown', 'options'),
-    [Input('section-dropdown', 'value')]
+    Output('question-buttons-container', 'children'),
+    Input('section-dropdown', 'value')
 )
-def update_question_dropdown(selected_section):
+def generate_question_buttons(selected_section):
     questions = df[df['Section'] == selected_section]['Question'].unique()
-    return [{'label': q, 'value': q} for q in questions]
+    return [
+        html.Button(
+            question,
+            id={'type': 'question-button', 'index': i},
+            n_clicks=0,
+            style={
+                "backgroundColor": "#f8f9fa",
+                "border": "1px solid #ccc",
+                "borderRadius": "5px",
+                "padding": "10px",
+                "cursor": "pointer",
+                "textAlign": "center"
+            }
+        ) for i, question in enumerate(questions)
+    ]
 
 
-# Callback for summary cards
+# Update summary cards
 @app.callback(
     Output('summary-cards-container', 'children'),
-    [Input('section-dropdown', 'value'),
-     Input('question-dropdown', 'value'),
-     Input('grade-level-dropdown', 'value'),
-     Input('major-dropdown', 'value')]
+    Input({'type': 'question-button', 'index': ALL}, 'n_clicks'),
+    [State('section-dropdown', 'value'),
+     State('grade-level-dropdown', 'value'),
+     State('major-dropdown', 'value')]
 )
-def update_summary_cards(selected_section, selected_question, selected_grade, selected_major):
-    if not selected_question:
+def update_summary_cards(_, selected_section, selected_grade, selected_major):
+    if not ctx.triggered:
         return []
 
-    # Filter data based on all selections
-    filtered_df = df[(df['Section'] == selected_section) &
-                     (df['Question'] == selected_question)]
+    # Get selected question
+    triggered_id = ctx.triggered_id
+    question_index = triggered_id['index']
+    questions = df[df['Section'] == selected_section]['Question'].unique()
+    selected_question = questions[question_index]
 
+    # Filter data
+    filtered_df = df[
+        (df['Section'] == selected_section) &
+        (df['Question'] == selected_question)
+        ]
     if selected_grade != 'All':
         filtered_df = filtered_df[filtered_df['College Grade Level'] == selected_grade]
     if selected_major != 'All':
@@ -125,11 +169,11 @@ def update_summary_cards(selected_section, selected_question, selected_grade, se
     # Calculate metrics
     total_responses = len(filtered_df)
     answer_counts = filtered_df['Answer'].value_counts()
-    most_common_answer = answer_counts.idxmax() if not answer_counts.empty else "N/A"
+    most_common = answer_counts.idxmax() if not answer_counts.empty else "N/A"
     unique_answers = len(answer_counts)
 
-    # Create summary cards
-    cards = [
+    # Create cards
+    return [
         html.Div(style={
             "backgroundColor": "#f8f9fa",
             "padding": "15px",
@@ -150,7 +194,7 @@ def update_summary_cards(selected_section, selected_question, selected_grade, se
             "minWidth": "250px"
         }, children=[
             html.H3("Most Common Answer", style={"textAlign": "center", "marginBottom": "10px"}),
-            html.P(f"{most_common_answer}", style={"textAlign": "center", "fontSize": "24px", "margin": 0})
+            html.P(f"{most_common}", style={"textAlign": "center", "fontSize": "24px", "margin": 0})
         ]),
         html.Div(style={
             "backgroundColor": "#f8f9fa",
@@ -165,73 +209,99 @@ def update_summary_cards(selected_section, selected_question, selected_grade, se
         ])
     ]
 
-    return cards
 
-
-# Callback for charts
 @app.callback(
     Output('charts-container', 'children'),
-    [Input('section-dropdown', 'value'),
-     Input('question-dropdown', 'value'),
-     Input('grade-level-dropdown', 'value'),
-     Input('major-dropdown', 'value')]
+    Input({'type': 'question-button', 'index': ALL}, 'n_clicks'),
+    [State('section-dropdown', 'value'),
+     State('grade-level-dropdown', 'value'),
+     State('major-dropdown', 'value')]
 )
+def update_charts(_, selected_section, selected_grade, selected_major):
+    if not ctx.triggered:
+        return [html.Div("Please select a question to display charts.")]
 
-def update_charts(selected_section, selected_question, selected_grade, selected_major):
-    if not selected_question:
-        return html.Div("Please select a question to display charts.")
+    # Get selected question
+    triggered_id = ctx.triggered_id
+    question_index = triggered_id['index']
+    questions = df[df['Section'] == selected_section]['Question'].unique()
+    selected_question = questions[question_index]
 
-    # Filter data based on all selections
-    filtered_df = df[(df['Section'] == selected_section) &
-                     (df['Question'] == selected_question)]
-
+    # Filter data
+    filtered_df = df[
+        (df['Section'] == selected_section) &
+        (df['Question'] == selected_question)
+        ]
     if selected_grade != 'All':
         filtered_df = filtered_df[filtered_df['College Grade Level'] == selected_grade]
     if selected_major != 'All':
         filtered_df = filtered_df[filtered_df['Major/Field of Study'] == selected_major]
 
+    # Get sorted answer order
+    answer_order = sorted(filtered_df['Answer'].unique())
+
     # Pie Chart
     pie_data = filtered_df['Answer'].value_counts().reset_index()
     pie_data.columns = ['Answer', 'Count']
+
     pie_chart = dcc.Graph(
-        figure=px.pie(pie_data, values='Count', names='Answer',
-                      title=f'Distribution of Answers: {selected_question}',
-                      color_discrete_sequence=color_palette),
+        figure=px.pie(
+            pie_data,
+            values='Count',
+            names='Answer',
+            title=f'Distribution of Answers: {selected_question}',
+            category_orders={'Answer': sorted(filtered_df['Answer'].unique())},
+            color_discrete_sequence=color_palette
+        ).update_traces(
+            textinfo='percent',  # Show only percentages
+            textfont=dict(size=FONT_SIZES["tick_labels"])  # Adjust font size for readability
+        ).update_layout(**GLOBAL_LAYOUT),
         config={'responsive': True},
-        style={'height': "50%", "width": "100%"}
+        style={'height': '50vh'}
     )
-
-    # Stacked Bar Chart by Grade Level
-    grade_data = filtered_df.groupby(['College Grade Level', 'Answer']).size().reset_index(name='Count')
+    # Grade Level Bar Chart
+    grade_data = filtered_df.groupby(
+        ['College Grade Level', 'Answer']
+    ).size().reset_index(name='Count')
     grade_bar_chart = dcc.Graph(
-        figure=px.bar(grade_data, x='Answer', y='Count', color='College Grade Level',
-                      title=f'Answers by Grade Level: {selected_question}',
-                      barmode='stack',
-                      color_discrete_sequence=color_palette),
+        figure=px.bar(
+            grade_data,
+            x='Answer',
+            y='Count',
+            color='College Grade Level',
+            title=f'Answers by Grade Level: {selected_question}',
+            category_orders={'Answer': answer_order},
+            barmode='stack',
+            color_discrete_sequence=color_palette
+        ).update_layout(**GLOBAL_LAYOUT),
         config={'responsive': True},
-        style={'height': "50%", "width": "100%"}
+        style={'height': '50vh'}
     )
 
-    # Stacked Bar Chart by Major
-    major_data = filtered_df.groupby(['Major/Field of Study', 'Answer']).size().reset_index(name='Count')
+    # Major Bar Chart
+    major_data = filtered_df.groupby(
+        ['Major/Field of Study', 'Answer']
+    ).size().reset_index(name='Count')
     major_bar_chart = dcc.Graph(
-        figure=px.bar(major_data, x='Answer', y='Count', color='Major/Field of Study',
-                      title=f'Answers by Major: {selected_question}',
-                      barmode='stack',
-                      color_discrete_sequence=color_palette),
+        figure=px.bar(
+            major_data,
+            x='Answer',
+            y='Count',
+            color='Major/Field of Study',
+            title=f'Answers by Major: {selected_question}',
+            category_orders={'Answer': answer_order},
+            barmode='stack',
+            color_discrete_sequence=color_palette
+        ).update_layout(**GLOBAL_LAYOUT),
         config={'responsive': True},
-        style={'height': "50%", "width": "100%"}
+        style={'height': '50vh'}
     )
 
-    return html.Div([
-        pie_chart,
-        grade_bar_chart,
-        major_bar_chart
-    ])
+    return [pie_chart, grade_bar_chart, major_bar_chart]
 
-
-# # Run app
+# Run app
 server = app.server
 
-# if __name__ == "__main__":
-#     app.run_server(debug=True)
+# # Run app
+# if __name__ == '__main__':
+#     app.run(debug=False)
