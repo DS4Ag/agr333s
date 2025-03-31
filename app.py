@@ -238,7 +238,8 @@ def update_charts(_, selected_section, selected_grade, selected_major):
         filtered_df = filtered_df[filtered_df['Major/Field of Study'] == selected_major]
 
     # Get sorted answer order
-    answer_order = sorted(filtered_df['Answer'].unique())
+    #answer_order = sorted(filtered_df['Answer'].unique())
+    answer_order = sorted([str(ans) for ans in filtered_df['Answer'].dropna().unique()])
 
     # Pie Chart
     pie_data = filtered_df['Answer'].value_counts().reset_index()
@@ -250,7 +251,8 @@ def update_charts(_, selected_section, selected_grade, selected_major):
             values='Count',
             names='Answer',
             title=f'Distribution of Answers: {selected_question}',
-            category_orders={'Answer': sorted(filtered_df['Answer'].unique())},
+            #category_orders={'Answer': sorted(filtered_df['Answer'].unique())},
+            category_orders={'Answer': sorted(filtered_df['Answer'].dropna().astype(str).unique())},
             color_discrete_sequence=color_palette
         ).update_traces(
             textinfo='percent',  # Show only percentages
@@ -299,9 +301,9 @@ def update_charts(_, selected_section, selected_grade, selected_major):
 
     return [pie_chart, grade_bar_chart, major_bar_chart]
 
-# Run app
-server = app.server
-
 # # Run app
-# if __name__ == '__main__':
-#     app.run(debug=False)
+# server = app.server
+
+# Run app
+if __name__ == '__main__':
+    app.run(debug=True)
