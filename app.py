@@ -302,8 +302,8 @@ def update_charts(_, selected_section, selected_grade, selected_major):
     return [pie_chart, grade_bar_chart, major_bar_chart]
 
 # # Run app
-# server = app.server
+server = app.server
 
 # Run app
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
